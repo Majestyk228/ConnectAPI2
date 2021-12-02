@@ -17,5 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     //2+2+1=6
+    //Theo jte deteste
 }
 
