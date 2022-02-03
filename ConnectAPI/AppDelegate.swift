@@ -16,7 +16,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
-    //2+2+1=6
-    //Theo jte deteste
 }
 
