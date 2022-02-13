@@ -1,25 +1,20 @@
 //
-//  LoadingViewController.swift
+//  CommentsViewController.swift
 //  ConnectAPI
 //
-//  Created by Titan on 03/02/2022.
+//  Created by Titan on 13/02/2022.
 //
 
 import UIKit
 
-class LoadingViewController: UIViewController {
+class CommentsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
-        sleep(UInt32(5.0))
-        
-        print("wait started")
-        let homeViewController: HomeViewController = HomeViewController()
-        self.navigationController?.pushViewController(homeViewController, animated: true)
-        print("wait ended")
     }
+
 
     /*
     // MARK: - Navigation

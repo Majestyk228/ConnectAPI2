@@ -10,6 +10,12 @@
 		8EBEDEAB2759020D005C20B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBEDEAA2759020D005C20B8 /* AppDelegate.swift */; };
 		8EBEDEB42759020F005C20B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBEDEB32759020F005C20B8 /* Assets.xcassets */; };
 		8EBEDEB72759020F005C20B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBEDEB52759020F005C20B8 /* LaunchScreen.storyboard */; };
+		8EC6330A27B9689B002C7EF2 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6330827B9689B002C7EF2 /* CommentsViewController.swift */; };
+		8EC6330B27B9689B002C7EF2 /* CommentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6330927B9689B002C7EF2 /* CommentsViewController.xib */; };
+		8EC6330E27B969BC002C7EF2 /* CaptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6330C27B969BC002C7EF2 /* CaptionsViewController.swift */; };
+		8EC6330F27B969BC002C7EF2 /* CaptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6330D27B969BC002C7EF2 /* CaptionsViewController.xib */; };
+		8EC6331227B96A46002C7EF2 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6331027B96A46002C7EF2 /* VideosViewController.swift */; };
+		8EC6331327B96A46002C7EF2 /* VideosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC6331127B96A46002C7EF2 /* VideosViewController.xib */; };
 		8EFB1E9827AC0F39003FD49B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB1E9627AC0F39003FD49B /* LoadingViewController.swift */; };
 		8EFB1E9927AC0F39003FD49B /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB1E9727AC0F39003FD49B /* LoadingViewController.xib */; };
 		8EFB1E9C27AC123C003FD49B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB1E9A27AC123C003FD49B /* HomeViewController.swift */; };
@@ -24,6 +30,12 @@
 		8EBEDEB32759020F005C20B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EBEDEB62759020F005C20B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EBEDEB82759020F005C20B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC6330827B9689B002C7EF2 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		8EC6330927B9689B002C7EF2 /* CommentsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsViewController.xib; sourceTree = "<group>"; };
+		8EC6330C27B969BC002C7EF2 /* CaptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsViewController.swift; sourceTree = "<group>"; };
+		8EC6330D27B969BC002C7EF2 /* CaptionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaptionsViewController.xib; sourceTree = "<group>"; };
+		8EC6331027B96A46002C7EF2 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		8EC6331127B96A46002C7EF2 /* VideosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosViewController.xib; sourceTree = "<group>"; };
 		8EFB1E9627AC0F39003FD49B /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		8EFB1E9727AC0F39003FD49B /* LoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
 		8EFB1E9A27AC123C003FD49B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +84,12 @@
 				8EFB1E9B27AC123C003FD49B /* HomeViewController.xib */,
 				8EFB1E9E27AC1A65003FD49B /* AboutViewController.swift */,
 				8EFB1E9F27AC1A65003FD49B /* AboutViewController.xib */,
+				8EC6330827B9689B002C7EF2 /* CommentsViewController.swift */,
+				8EC6330927B9689B002C7EF2 /* CommentsViewController.xib */,
+				8EC6330C27B969BC002C7EF2 /* CaptionsViewController.swift */,
+				8EC6330D27B969BC002C7EF2 /* CaptionsViewController.xib */,
+				8EC6331027B96A46002C7EF2 /* VideosViewController.swift */,
+				8EC6331127B96A46002C7EF2 /* VideosViewController.xib */,
 			);
 			path = ConnectAPI;
 			sourceTree = "<group>";
@@ -136,9 +154,12 @@
 			files = (
 				8EFB1E9927AC0F39003FD49B /* LoadingViewController.xib in Resources */,
 				8EBEDEB72759020F005C20B8 /* LaunchScreen.storyboard in Resources */,
+				8EC6331327B96A46002C7EF2 /* VideosViewController.xib in Resources */,
+				8EC6330B27B9689B002C7EF2 /* CommentsViewController.xib in Resources */,
 				8EBEDEB42759020F005C20B8 /* Assets.xcassets in Resources */,
 				8EFB1E9D27AC123C003FD49B /* HomeViewController.xib in Resources */,
 				8EFB1EA127AC1A65003FD49B /* AboutViewController.xib in Resources */,
+				8EC6330F27B969BC002C7EF2 /* CaptionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +173,10 @@
 				8EBEDEAB2759020D005C20B8 /* AppDelegate.swift in Sources */,
 				8EFB1E9827AC0F39003FD49B /* LoadingViewController.swift in Sources */,
 				8EFB1EA027AC1A65003FD49B /* AboutViewController.swift in Sources */,
+				8EC6331227B96A46002C7EF2 /* VideosViewController.swift in Sources */,
+				8EC6330A27B9689B002C7EF2 /* CommentsViewController.swift in Sources */,
 				8EFB1E9C27AC123C003FD49B /* HomeViewController.swift in Sources */,
+				8EC6330E27B969BC002C7EF2 /* CaptionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
